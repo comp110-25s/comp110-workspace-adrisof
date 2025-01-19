@@ -16,7 +16,7 @@ def tea_bags(people: int) -> int:
     return people * 2
 
 
-def treats(people: int) -> float:
+def treats(people: int) -> int:
     """Calculates how many treats needed with parameter people"""
     return 1.5 * tea_bags(people=people)
 
